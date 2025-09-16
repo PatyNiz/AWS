@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0" version="28.2.2">
+  <diagram name="Página-1" id="ivYxTPNM29D0Cj9fDNKf">
+    <mxGraphModel dx="786" dy="731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="51BWg50A0ZHnDTyn-7VD-28" value="TRIGGER" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="51BWg50A0ZHnDTyn-7VD-2" target="51BWg50A0ZHnDTyn-7VD-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="51BWg50A0ZHnDTyn-7VD-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="51BWg50A0ZHnDTyn-7VD-2" target="51BWg50A0ZHnDTyn-7VD-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="51BWg50A0ZHnDTyn-7VD-2" value="LAMBDA NODEJS NET CORE PYTHON" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="430" y="290" width="86.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="51BWg50A0ZHnDTyn-7VD-4" value="SISTEMA DE ARQUIVOS" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="530" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="51BWg50A0ZHnDTyn-7VD-5" value="S3" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.s3;fillColor=#E05243;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="290" width="76.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="51BWg50A0ZHnDTyn-7VD-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="51BWg50A0ZHnDTyn-7VD-13" target="51BWg50A0ZHnDTyn-7VD-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="337" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="51BWg50A0ZHnDTyn-7VD-34" value="AWS CLI TRANFER FILE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="51BWg50A0ZHnDTyn-7VD-33">
+          <mxGeometry x="-0.1155" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="51BWg50A0ZHnDTyn-7VD-13" value="&lt;div&gt;Arquivo&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
+          <mxGeometry x="70" y="520" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="51BWg50A0ZHnDTyn-7VD-24" value="DYNAMO" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.dynamo_db;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="660" y="296" width="72" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="51BWg50A0ZHnDTyn-7VD-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="51BWg50A0ZHnDTyn-7VD-4" target="51BWg50A0ZHnDTyn-7VD-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
